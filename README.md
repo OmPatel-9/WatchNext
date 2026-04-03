@@ -110,9 +110,7 @@ WatchNext/
 From the project root, run:
 
 ```bash
-docker compose down -v
-docker compose build --no-cache
-docker compose up
+docker-compose up --build
 ```
 
 ---
