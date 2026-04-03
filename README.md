@@ -14,15 +14,6 @@
 
 ---
 
-## Preview
-
-<p align="center">
-  <img src="./assets/watchnext-home.png" alt="WatchNext Home Screen" width="800" />
-</p>
-
-> Put your screenshot inside an `assets/` folder and name it `watchnext-home.png` to make the preview work as-is.
-
----
 
 ## What WatchNext Does
 
