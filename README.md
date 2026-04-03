@@ -70,8 +70,6 @@ WatchNext/
 ├── docker-compose.yml
 ├── TMDB_movie_dataset_v11.csv
 ├── README.md
-└── assets/
-    └── watchnext-home.png
 ```
 
 ---
