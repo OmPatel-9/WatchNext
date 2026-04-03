@@ -187,31 +187,6 @@ docker compose up
 
 ---
 
-### Registration failed on the website
-
-That usually means the frontend could not reach the backend.
-
-Check the backend directly:
-
-```bash
-http://localhost:8000/api/health
-```
-
-If it does not load:
-- make sure the CSV file is in the project root
-- make sure `init_data.sh` uses `LF`, not `CRLF`
-- rebuild the containers cleanly
-
----
-
-### CSV file not found
-
-If your dataset is inside another folder like `app/`, Docker will not find it unless you change the compose mount path.
-
-Simplest fix: move the file to the project root.
-
----
-
 ## Useful Commands
 
 ### Show container status
@@ -240,19 +215,6 @@ docker compose down
 docker compose down -v
 ```
 
----
-
-## Branding Notes
-
-If you renamed the project from **CineMatch** to **WatchNext**, these are the main places to update:
-
-```bash
-frontend/src/app/page.tsx
-frontend/src/components/Navbar.tsx
-frontend/src/app/layout.tsx
-backend/main.py
-README.md
-```
 
 ---
 
